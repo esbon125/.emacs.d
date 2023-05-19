@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: fancy-hdr
+# key: fhdr
+# --
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{${1:headnote}}
+\cfoot{${2:footnote}}
+\rfoot{\thepage}
+$0
