@@ -1,0 +1,8 @@
+# contributor: esbon1253 <ebustamante896@gmail.com>
+# -*- mode: snippet -*-
+# name: matlab code listing
+# key: mblst
+# --
+\begin{lstlisting}[style=${1:Matlab-editor}]
+$0
+\end{lstlisting}

@@ -17,7 +17,7 @@
  '(doc-view-continuous t)
  '(line-number-mode nil)
  '(package-selected-packages
-   '(company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces

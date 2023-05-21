@@ -1,0 +1,12 @@
+#contributor: esbon1253 <ebustamante896@gmail.com>
+# -*- mode: snippet -*-
+# name: matlab file template
+# key: matlab
+# --
+\documentclass{article}
+\usepackage[framed,numbered]{matlab-prettifier}
+
+\begin{document}
+\lstinputlisting[style=Matlab-editor]{${1:Matlab file}}
+$0
+\end{document}
