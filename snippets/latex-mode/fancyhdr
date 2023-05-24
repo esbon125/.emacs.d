@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: fancyhdr
+# key: fhdr
+# --
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
+\cfoot{${1:Tema} - ${2:Materia}}
+\rfoot{\thepage}
