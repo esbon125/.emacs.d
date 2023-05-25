@@ -1,0 +1,27 @@
+# contributor: esbon1253 <ebustamante896@gmail.com>
+# -*- mode: snippet -*-
+# name: informe
+# key: informe
+# --
+\documentclass[options]{article}
+
+\author{Esteban Bustamante}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
+\cfoot{${1:Tema} - ${2:Materia}}
+\rfoot{\thepage}
+
+\begin{document}
+
+\section*{Objetivos}
+$0
+\section*{Desarrollo}
+
+\section*{Resultados}
+
+\section*{Conclusiones}
+
+\end{document}

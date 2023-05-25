@@ -17,7 +17,7 @@
  '(doc-view-continuous t)
  '(line-number-mode nil)
  '(package-selected-packages
-   '(magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(ac-math esh-autosuggest eshell-did-you-mean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces
@@ -53,3 +53,10 @@
 (add-to-list 'load-path "/home/esbon1253/.emacs.d/elpa/company-auctex-20200529.1835/company-auctex.el")
 (require 'company-auctex)
 (company-auctex-init)
+
+;; local configuration for TeX modes
+(defun my-latex-mode-setup ()
+  (setq-local company-backends
+              (append '((company-math-symbols-latex company-latex-commands))
+                      company-backends)))
+(add-hook 'TeX-mode-hook 'my-latex-mode-setup)
