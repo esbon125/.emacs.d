@@ -17,9 +17,10 @@
  '(doc-view-continuous t)
  '(line-number-mode nil)
  '(package-selected-packages
-   '(ac-math esh-autosuggest eshell-did-you-mean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(yas-triggers-in-field t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
