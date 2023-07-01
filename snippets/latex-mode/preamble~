@@ -1,8 +1,0 @@
-# contributor: Esteban Bustamante <ebustamante896@gmail.com>
-# -*- mode: snippet -*-
-# name: preamble
-# key: preamble
-# --
-\input{~/mi-preamble-latex/preamble.tex}
-\input{~/mi-preamble-latex/letterfonts.tex}
-\input{~/mi-preamble-latex/macros.tex}

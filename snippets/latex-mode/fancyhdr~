@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: fancyhdr
-# key: fhdr
-# --
-\usepackage{fancyhdr}
-
-\pagestyle{fancy}
