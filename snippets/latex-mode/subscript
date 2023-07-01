@@ -1,0 +1,6 @@
+# contributor: Esteban Bustamante
+# -*- mode: snippet -*-
+# name: subscript
+# key:_
+# --
+$1_{$2}$0

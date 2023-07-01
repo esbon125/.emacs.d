@@ -3,8 +3,6 @@
 # name: preamble
 # key: preamble
 # --
-\input{~/mi-preamble-latex/preamble.tex}
-\input{~/mi-preamble-latex/letterfonts.tex}
-\input{~/mi-preamble-latex/macros.tex}
+\input{~/mi-preamble-latex/mypreamble.tex}
 
 fhdr$0

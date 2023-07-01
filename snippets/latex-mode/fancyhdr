@@ -2,10 +2,12 @@
 # name: fancyhdr
 # key: fhdr
 # --
-\usepackage{fancyhdr}
 
 \pagestyle{fancy}
 \fancyhf{}
-\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
-\cfoot{${1:Tema} - ${2:Materia}}
+\chead{${1:$$(yas-auto-next
+		(yas-completing-read
+			"Institucion? "
+			'("Instituto Omega" "Universidad Tecnológica Nacional Facultad Regional La Rioja")))} - Esteban Bustamante}
+\cfoot{${2:Tema} - ${3:Materia}}
 \rfoot{\thepage}

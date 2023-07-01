@@ -1,0 +1,10 @@
+# contributor: Esteban Bustamante
+# -*- mode: snippet -*-
+# name: bmatrix2x2
+# key: bm2
+# --
+\begin{bmatrix}
+$1 & $2 \\\
+$3 & $4
+\end{bmatrix}
+$0

@@ -1,0 +1,21 @@
+# contributor: Esteban Bustamante
+# -*- mode: snippet -*-
+# name: tp
+# key: tp
+# --
+\documentclass[options]{article}
+
+\author{Esteban Bustamante}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
+\cfoot{${1:Tema} - ${2:Materia}}
+\rfoot{\thepage}
+
+\begin{document}
+
+\section*{Ejercicio 1}
+$0
+\end{document}
