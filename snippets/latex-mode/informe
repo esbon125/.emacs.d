@@ -14,6 +14,7 @@
 \cfoot{${1:Tema} - ${2:Materia}}
 \rfoot{\thepage}
 
+
 \begin{document}
 
 \section*{Objetivos}
