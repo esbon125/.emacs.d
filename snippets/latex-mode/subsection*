@@ -3,6 +3,4 @@
 # key: ssec*
 # --
 \subsection*{${1:name}}
-\caption{\label{subsec:label}${2:caption}}
-
 $0
