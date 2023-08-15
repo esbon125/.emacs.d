@@ -3,16 +3,9 @@
 # name: tp
 # key: tp
 # --
-\documentclass[options]{article}
+\documentclass[${1:a4,11pt}]{article}
 
-\author{Esteban Bustamante}
-\usepackage{fancyhdr}
-
-\pagestyle{fancy}
-\fancyhf{}
-\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
-\cfoot{${1:Tema} - ${2:Materia}}
-\rfoot{\thepage}
+${2:preamble}
 
 \begin{document}
 
