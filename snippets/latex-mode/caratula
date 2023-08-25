@@ -1,0 +1,6 @@
+# contributor: Esteban Bustamante
+# -*- mode: snippet -*-
+# name: caratula
+# key: car
+# --
+\includepdf[pages=-]{resources/caratula.pdf}
