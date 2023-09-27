@@ -15,6 +15,7 @@
      (output-html "xdg-open")))
  '(custom-enabled-themes '(tango-dark))
  '(doc-view-continuous t)
+ '(graphviz-dot-preview-extension "jpeg")
  '(line-number-mode nil)
  '(package-selected-packages
    '(esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
