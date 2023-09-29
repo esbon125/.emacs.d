@@ -15,10 +15,12 @@
      (output-html "xdg-open")))
  '(custom-enabled-themes '(tango-dark))
  '(doc-view-continuous t)
- '(graphviz-dot-preview-extension "jpeg")
+ '(graphviz-dot-auto-preview-on-save t)
+ '(graphviz-dot-preview-extension "svg")
+ '(graphviz-dot-view-command "xdot %s")
  '(line-number-mode nil)
  '(package-selected-packages
-   '(esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(yas-triggers-in-field t))
@@ -62,3 +64,6 @@
               (append '((company-math-symbols-latex company-latex-commands))
                       company-backends)))
 (add-hook 'TeX-mode-hook 'my-latex-mode-setup)
+;graphviz
+(use-package graphviz-dot-mode
+  :ensure t)

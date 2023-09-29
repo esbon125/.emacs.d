@@ -2,16 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("conf"
+(("dda"
+ (filename . "~/Documentos/cursodda/")
+ (front-context-string . "A_Practical_Appr")
+ (rear-context-string . "92 sep  9 12:58 ")
+ (position . 219)
+ (last-modified 25878 6666 140122 485000))
+("gv"
+ (filename . "~/Documentos/graphviz/")
+ (front-context-string . "ArbolDeCausas.gv")
+ (rear-context-string . "26 abr  3 14:39 ")
+ (position . 213)
+ (last-modified 25878 6126 705178 764000))
+("conf"
  (filename . "~/.emacs.d/init.el")
  (front-context-string)
  (rear-context-string . "      :defer 2)\n")
  (position . 3059)
  (last-modified 25875 557 750296 236000))
-("tp8"
- (filename . "~/Documentos/Latex/tc2/tp8/")
- (front-context-string)
- (rear-context-string . "sep 26 11:49 ..\n")
- (position . 158)
- (last-modified 25874 61304 746813 710000))
 )
