@@ -65,5 +65,7 @@
                       company-backends)))
 (add-hook 'TeX-mode-hook 'my-latex-mode-setup)
 ;graphviz
-(use-package graphviz-dot-mode
-  :ensure t)
+;(use-package graphviz-dot-mode
+;  :ensure t)
+(dolist (hook '(text-mode-hook))
+  (add-hook hook (lambda () (flyspell-mode 1))))
