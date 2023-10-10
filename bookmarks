@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("tp4"
+(("nan"
+ (filename . "~/Documentos/Latex/nan/")
+ (front-context-string . "auto\n  -rw-r--r-")
+ (rear-context-string . "96 oct 10 02:18 ")
+ (position . 217)
+ (last-modified 25892 57223 740064 491000))
+("tp4"
  (filename . "~/Documentos/Latex/EA2/tp4/")
  (front-context-string . "auto\n  -rw-r--r-")
  (rear-context-string . "96 oct  5 16:45 ")
