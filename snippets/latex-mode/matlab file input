@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: matlab file input
+# key: mbfile
+# --
+\lstinputlisting[style=Matlab-editor]{${1:Matlab file}}
+$0

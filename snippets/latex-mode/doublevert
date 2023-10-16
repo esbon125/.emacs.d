@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: doublevert
+# key: vv
+# --
+ \vert\vert $0
