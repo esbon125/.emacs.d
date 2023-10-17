@@ -2,12 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("tp4"
- (filename . "~/Documentos/Latex/EA2/tp4/")
- (front-context-string . "auto\n  -rw-r--r-")
- (rear-context-string . "96 oct  5 16:45 ")
- (position . 212)
- (last-modified 25889 37583 68229 809000))
+(("sc"
+ (filename . "~/Documentos/Latex/sc/")
+ (front-context-string)
+ (rear-context-string . "96 oct 17 02:10 ")
+ (position . 207)
+ (last-modified 25902 5960 693727 731000))
 ("dda"
  (filename . "~/Documentos/cursodda/")
  (front-context-string . "A_Practical_Appr")

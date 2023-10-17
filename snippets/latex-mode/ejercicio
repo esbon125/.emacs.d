@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: ejercicio
+# key: ej
+# --
+\section*{Ejercicio $1}
+$0
