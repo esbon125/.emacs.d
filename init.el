@@ -67,5 +67,26 @@
 ;graphviz
 ;(use-package graphviz-dot-mode
 ;  :ensure t)
-(dolist (hook '(text-mode-hook))
-  (add-hook hook (lambda () (flyspell-mode 1))))
+
+;; Hunspell
+
+(setq-default ispell-program-name "hunspell")
+(setq ispell-really-hunspell t)
+;; tell ispell that apostrophes are part of words
+;; and select Bristish dictionary (nil)
+(setq ispell-local-dictionary-alist
+      `((nil "[[:alpha:]]" "[^[:alpha:]]" "[']" t ("-d" "es_AR") nil utf-8)
+
+	("british" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_GB") t utf-8)
+	("latin" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "la") t utf-8)
+	))
+
+;; Activar Flyspell en modo texto y modos relacionados
+(add-hook 'text-mode-hook
+  '(lambda () (flyspell-mode 1)))
+
+
+;(dolist (hook '(text-mode-hook))
+;  (add-hook hook (lambda () (flyspell-mode 1))))
+;Changing from aspell to hunspell
+;(setq ispell-program-name "hunspell")
