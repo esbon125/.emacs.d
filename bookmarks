@@ -2,18 +2,18 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("home"
+(("preamble"
+ (filename . "~/mi-preamble-latex/mypreamble.tex")
+ (front-context-string . "%%%%%%%%%%%%%%%%")
+ (rear-context-string)
+ (position . 1)
+ (last-modified 25987 31414 998955 850000))
+("home"
  (filename . "~/")
  (front-context-string . ".bash_history\n  ")
  (rear-context-string . "01 dic 18 13:52 ")
  (position . 193)
  (last-modified 25985 7109 256263 830000))
-("tp3"
- (filename . "~/Documentos/Latex/sc/tp3/source.tex")
- (front-context-string . "\n\n\\section*{Ejer")
- (rear-context-string . "al de portadora.")
- (position . 2803)
- (last-modified 25985 7062 300739 368000))
 ("dda"
  (filename . "~/Documentos/cursodda/")
  (front-context-string . "A_Practical_Appr")
