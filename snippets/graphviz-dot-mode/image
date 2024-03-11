@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: image
+# key: im
+# --
+$1 $0
+
+$1[label="",image="${2:imagename}"]

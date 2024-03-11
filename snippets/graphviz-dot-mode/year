@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: year
+# key:y
+# --
+$1[label="${2:$(number-to-string (+ 753 (string-to-number yas-text)))} auc"]
+$0${2:Annus}

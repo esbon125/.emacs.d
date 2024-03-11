@@ -20,11 +20,10 @@
  '(graphviz-dot-view-command "xdot %s")
  '(line-number-mode nil)
  '(package-selected-packages
-   '(verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
- '(yas-triggers-in-field t)
- '(yas-wrap-around-region t))
+ '(yas-triggers-in-field t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -91,14 +90,3 @@
 ;  (add-hook hook (lambda () (flyspell-mode 1))))
 ;Changing from aspell to hunspell
 ;(setq ispell-program-name "hunspell")
-
-; VERILOG
-(add-hook 'verilog-mode-hook
-          (lambda ()
-            (unless (or (file-exists-p "makefile")
-                        (file-exists-p "Makefile"))
-              (set (make-local-variable 'compile-command)
-                   (concat "verilator --timing --lint-only  __FILE__ -o "
-                           (if buffer-file-name
-                               (shell-quote-argument
-                                (file-name-sans-extension buffer-file-name))))))))

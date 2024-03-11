@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: same
+# key: sm
+# --
+{rank=same;$1}
+$0

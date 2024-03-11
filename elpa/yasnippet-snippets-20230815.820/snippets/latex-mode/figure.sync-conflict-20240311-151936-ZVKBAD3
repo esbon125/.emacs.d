@@ -2,8 +2,8 @@
 # name: figure
 # key: fig
 # --
-\begin{figure}[!ht]
+\begin{figure}[ht]
   \centering
-  \includegraphics[${1:width=1\textwidth}]{${2:path.pdf}}
+  \includegraphics[${1:width=1\textwidth}]{resources/${2:path.pdf}}
   \caption{\label{fig:${3:label}} $0}
 \end{figure}

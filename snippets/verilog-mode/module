@@ -1,0 +1,16 @@
+# -*- mode: verilog -*-
+# name: module
+# key: mod
+# --
+module $1
+//PARAMETERS
+$2 #()
+//PORT DECLARATION
+(
+$3
+);
+
+//ARCHITECTURE
+always@($4) begin
+$0
+end

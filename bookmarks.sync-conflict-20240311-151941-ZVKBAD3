@@ -2,25 +2,7 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("informe"
- (filename . "~/Documents/eamta_2024/lab/lab/informe/")
- (front-context-string . "auto\n  -rw-r--r-")
- (rear-context-string . "96 Mar  7 12:43 ")
- (position . 227)
- (last-modified 26090 10138 932655 84000))
-("lab"
- (filename . "~/Documents/eamta_2024/lab/lab/")
- (front-context-string . ".DS_Store\n  drwx")
- (rear-context-string . "48 Mar  5  2021 ")
- (position . 209)
- (last-modified 26089 13826 855734 137000))
-("ir"
- (filename . "~/Documents/graphviz/iusromanum/")
- (front-context-string . "graph.gv\n  -rw-r")
- (rear-context-string . "56 Dec 31 02:06 ")
- (position . 220)
- (last-modified 26001 32914 457966 729000))
-("preamble"
+(("preamble"
  (filename . "~/mi-preamble-latex/mypreamble.tex")
  (front-context-string . "%%%%%%%%%%%%%%%%")
  (rear-context-string)
@@ -32,6 +14,18 @@
  (rear-context-string . "01 dic 18 13:52 ")
  (position . 193)
  (last-modified 25985 7109 256263 830000))
+("dda"
+ (filename . "~/Documentos/cursodda/")
+ (front-context-string . "A_Practical_Appr")
+ (rear-context-string . "92 sep  9 12:58 ")
+ (position . 219)
+ (last-modified 25878 6666 140122 485000))
+("gv"
+ (filename . "~/Documentos/graphviz/")
+ (front-context-string . "ArbolDeCausas.gv")
+ (rear-context-string . "26 abr  3 14:39 ")
+ (position . 213)
+ (last-modified 25878 6126 705178 764000))
 ("conf"
  (filename . "~/.emacs.d/init.el")
  (front-context-string)
