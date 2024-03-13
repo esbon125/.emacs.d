@@ -20,7 +20,7 @@
  '(graphviz-dot-view-command "xdot %s")
  '(line-number-mode nil)
  '(package-selected-packages
-   '(verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(yas-triggers-in-field t)
@@ -92,7 +92,7 @@
 ;Changing from aspell to hunspell
 ;(setq ispell-program-name "hunspell")
 
-; VERILOG
+; VERILOG with Verilator
 (add-hook 'verilog-mode-hook
           (lambda ()
             (unless (or (file-exists-p "makefile")
@@ -102,3 +102,7 @@
                            (if buffer-file-name
                                (shell-quote-argument
                                 (file-name-sans-extension buffer-file-name))))))))
+
+
+;CD Latex with AUCtex
+(add-hook 'LaTeX-mode-hook #'turn-on-cdlatex)   ; with AUCTeX LaTeX mode
