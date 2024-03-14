@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("informe"
+(("Quinquennium"
+ (filename . "~/Documentos/Latex/Quinquennium/")
+ (front-context-string)
+ (rear-context-string . "96 mar 14 15:37 ")
+ (position . 217)
+ (last-modified 26099 17366 228135 54000))
+("informe"
  (filename . "~/Documents/eamta_2024/lab/lab/informe/")
  (front-context-string . "auto\n  -rw-r--r-")
  (rear-context-string . "96 Mar  7 12:43 ")
