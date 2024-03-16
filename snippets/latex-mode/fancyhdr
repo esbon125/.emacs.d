@@ -11,3 +11,7 @@
 			'("Instituto Omega" "UTN Facultad Regional La Rioja")))} - Esteban Bustamante}
 \cfoot{${2:Tema} - ${3:Materia}}
 \rfoot{\thepage}
+
+\title{$2 - $3 }
+\author{Esteban Bustamante}
+\date{}

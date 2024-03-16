@@ -8,18 +8,6 @@
  (rear-context-string . "96 mar 14 15:37 ")
  (position . 217)
  (last-modified 26099 17366 228135 54000))
-("informe"
- (filename . "~/Documents/eamta_2024/lab/lab/informe/")
- (front-context-string . "auto\n  -rw-r--r-")
- (rear-context-string . "96 Mar  7 12:43 ")
- (position . 227)
- (last-modified 26090 10138 932655 84000))
-("lab"
- (filename . "~/Documents/eamta_2024/lab/lab/")
- (front-context-string . ".DS_Store\n  drwx")
- (rear-context-string . "48 Mar  5  2021 ")
- (position . 209)
- (last-modified 26089 13826 855734 137000))
 ("ir"
  (filename . "~/Documents/graphviz/iusromanum/")
  (front-context-string . "graph.gv\n  -rw-r")
