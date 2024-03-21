@@ -15,3 +15,29 @@ cd ..
 home
 esbon1253
 ngspice  testac.cir 
+pwd
+./obj_dir/Vtop 
+ls /opt/
+ls obj_dir/
+./obj_dir/Vtop 
+iverilog -o top tb_top.v halfadder.v 
+iverilog -o top tb_top.v halfadder.v 
+clear
+iverilog -o top tb_top.v halfadder.v 
+iverilog -o design_1 tb_top.v halfadder.v top.v
+iverilog -o design_1 tb_top.v halfadder.v top.v
+clear
+ls
+chmod a+x verdesign.sh 
+./verdesign.sh 
+sh verdesign.sh 
+bat Makefile 
+exit
+./verdesign.sh 
+bat Makefile 
+make
+s
+ls
+bat Makefile 
+./verdesign.sh 
+bat Makefile 

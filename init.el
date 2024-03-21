@@ -19,6 +19,7 @@
  '(graphviz-dot-preview-extension "svg")
  '(graphviz-dot-view-command "xdot %s")
  '(line-number-mode nil)
+ '(org-confirm-babel-evaluate nil)
  '(package-selected-packages
    '(cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
@@ -98,7 +99,7 @@
             (unless (or (file-exists-p "makefile")
                         (file-exists-p "Makefile"))
               (set (make-local-variable 'compile-command)
-                   (concat "verilator --timing --lint-only  __FILE__ -o "
+                   (concat "iverilog  __FILE__ -o "
                            (if buffer-file-name
                                (shell-quote-argument
                                 (file-name-sans-extension buffer-file-name))))))))
@@ -106,3 +107,9 @@
 
 ;CD Latex with AUCtex
 (add-hook 'LaTeX-mode-hook #'turn-on-cdlatex)   ; with AUCTeX LaTeX mode
+
+;ORG mode accept other languages
+;; active Babel languages
+(org-babel-do-load-languages
+'org-babel-load-languages
+'((shell . t)))
