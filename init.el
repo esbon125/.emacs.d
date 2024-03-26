@@ -21,7 +21,7 @@
  '(line-number-mode nil)
  '(org-confirm-babel-evaluate nil)
  '(package-selected-packages
-   '(cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(verilog-ext tree-sitter cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(yas-triggers-in-field t)
@@ -113,3 +113,5 @@
 (org-babel-do-load-languages
 'org-babel-load-languages
 '((shell . t)))
+;; Enable veri kompass minor mode mode
+(add-hook 'verilog-mode-hook 'veri-kompass-minor-mode)
