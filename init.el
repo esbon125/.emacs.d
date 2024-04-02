@@ -18,6 +18,7 @@
  '(graphviz-dot-auto-preview-on-save t)
  '(graphviz-dot-preview-extension "svg")
  '(graphviz-dot-view-command "xdot %s")
+ '(inhibit-startup-screen t)
  '(line-number-mode nil)
  '(org-confirm-babel-evaluate nil)
  '(package-selected-packages
@@ -115,3 +116,7 @@
 '((shell . t)))
 ;; Enable veri kompass minor mode mode
 (add-hook 'verilog-mode-hook 'veri-kompass-minor-mode)
+(put 'downcase-region 'disabled nil)
+
+;;LOAD CONFIG FILES
+(load-file "~/.emacs.d/startup.el")

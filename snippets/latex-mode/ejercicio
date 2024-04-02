@@ -1,6 +1,8 @@
+# contributor: esbon1253
 # -*- mode: snippet -*-
 # name: ejercicio
 # key: ej
 # --
-\section*{Ejercicio $1}
+\section{Ejercicio}
+\label{sec:ej${1:secnumber}}
 $0

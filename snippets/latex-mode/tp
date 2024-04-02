@@ -9,18 +9,14 @@ ${2:preamble}
 
 
 
-
 \begin{document}
 \maketitle
-\includegraphics*[width=1\textwidth]{/home/esbon1253/mi-preamble-latex/utn.jpg}
-\pagebreak
-
-
-\section*{Ejercicio 1}
-\maketitle
-begin{center
+\begin{center}
 \includegraphics[width=1\textwidth]{/home/esbon1253/mi-preamble-latex/utnlogo.jpg}
 \end{center}
 \pagebreak
+
+\section*{Ejercicio 1}
+
 $0
 \end{document}

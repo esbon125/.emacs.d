@@ -2,12 +2,24 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Quinquennium"
- (filename . "~/Documentos/Latex/Quinquennium/")
+(("latinstudy"
+ (filename . "~/Documents/latinstudy/")
+ (front-context-string . "consilium_soller")
+ (rear-context-string . "86 Mar 27 15:57 ")
+ (position . 217)
+ (last-modified 26118 5339 780032 321000))
+("tp1_teoria"
+ (filename . "~/Documents/latex/Quinquennium/te/tp1_teoria/")
+ (front-context-string . "auto\n  -rw-r--r-")
+ (rear-context-string . "96 Mar 28 21:48 ")
+ (position . 230)
+ (last-modified 26118 5286 434530 200000))
+("Quinquennium"
+ (filename . "~/Documents/latex/Quinquennium/")
  (front-context-string)
  (rear-context-string . "96 mar 14 15:37 ")
  (position . 217)
- (last-modified 26099 17366 228135 54000))
+ (last-modified 26118 902 208784 25000))
 ("ir"
  (filename . "~/Documents/graphviz/iusromanum/")
  (front-context-string . "graph.gv\n  -rw-r")
@@ -15,11 +27,11 @@
  (position . 220)
  (last-modified 26001 32914 457966 729000))
 ("preamble"
- (filename . "~/mi-preamble-latex/mypreamble.tex")
+ (filename . "~/mi-preamble-latex/")
  (front-context-string . "%%%%%%%%%%%%%%%%")
  (rear-context-string)
  (position . 1)
- (last-modified 25987 31414 998955 850000))
+ (last-modified 26118 1291 301709 56000))
 ("home"
  (filename . "~/")
  (front-context-string . ".bash_history\n  ")

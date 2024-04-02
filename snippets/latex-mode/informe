@@ -3,19 +3,16 @@
 # name: informe
 # key: informe
 # --
-\documentclass[options]{article}
+\documentclass[${1:a4,a4paper}]{article}
 
-\author{Esteban Bustamante}
-\usepackage{fancyhdr}
-
-\pagestyle{fancy}
-\fancyhf{}
-\chead{UTN Facultad Regional La Rioja - Esteban Bustamante}
-\cfoot{${1:Tema} - ${2:Materia}}
-\rfoot{\thepage}
-
+${2:preamble}
 
 \begin{document}
+\maketitle
+\begin{center}
+\includegraphics[width=1\textwidth]{/home/esbon1253/mi-preamble-latex/utnlogo.jpg}
+\end{center}
+\pagebreak
 
 \section*{Objetivos}
 $0
