@@ -1,0 +1,8 @@
+# contributor: esbon1253
+# -*- mode: snippet -*-
+# name: itregion
+# key: itr
+# --
+\begin{itemize}
+`(itemize)`
+\end{itemize}$0

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: digraph template
+# key: dig
+# --
+digraph{
+//Global
+graph[bgcolor="${1:blue:white}",layout=${2:dot},layers="$3",fontcolor=${4:black}]
+
+//Edging 
+//Nodes Description
+	$0
+}

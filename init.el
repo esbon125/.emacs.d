@@ -22,9 +22,12 @@
  '(line-number-mode nil)
  '(org-confirm-babel-evaluate nil)
  '(package-selected-packages
-   '(verilog-ext tree-sitter cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(erc erc-colorize erc-image erc-youtube erc-yt verilog-ext tree-sitter cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+ '(reftex-plug-into-AUCTeX t)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
+ '(warning-suppress-log-types '((yasnippet backquote-change)))
+ '(warning-suppress-types '((yasnippet backquote-change)))
  '(yas-triggers-in-field t)
  '(yas-wrap-around-region t))
 (custom-set-faces
@@ -94,7 +97,7 @@
 ;Changing from aspell to hunspell
 ;(setq ispell-program-name "hunspell")
 
-; VERILOG with Verilator
+; VERILOG with IcarusVerilog
 (add-hook 'verilog-mode-hook
           (lambda ()
             (unless (or (file-exists-p "makefile")
@@ -120,3 +123,8 @@
 
 ;;LOAD CONFIG FILES
 (load-file "~/.emacs.d/startup.el")
+
+;;LOAD MY FUNCTIONS FILES
+(load-file "~/.emacs.d/functions.el")
+
+(add-hook 'LaTeX-mode-hook 'reftex-mode)
