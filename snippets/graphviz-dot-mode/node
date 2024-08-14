@@ -1,0 +1,7 @@
+# contributor: esbon1253
+# -*- mode: snippet -*-
+# name:node
+# key: n
+# --
+`(move-end-of-line nil)` $1  $0
+$1[label="$2"];

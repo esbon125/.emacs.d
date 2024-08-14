@@ -1,41 +1,8 @@
-;; -*- emacs-lisp -*- <24/04/10 02:38:11 ~/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <24/08/05 15:04:05 ~/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
 (((tramp-file-name "cache" nil nil nil nil nil nil)
-  ("tramp-version" "2.6.3-pre"))
- ((tramp-file-name "sudo" "root" nil "esbon1253" nil nil nil)
-  ("null-device" "/dev/null")
-  ("uname" "Linux 6.8.2-arch2-1")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("pipe-buf" 4096)
-  ("remote-shell" "/bin/sh")
-  ("~root" "/root")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("file-exists" "test -e")
-  ("case-insensitive" nil)
-  ("~" "/root")
-  ("readlink" "\\readlink")
-  ("stat" "env QUOTING_STYLE=locale \\stat")
-  ("id" "/bin/id")
-  ("uid-integer" 0)
-  ("uid-string" "root")
-  ("gid-integer" 0)
-  ("gid-string" "root")
-  ("groups-integer"
-   (0))
-  ("groups-string"
-   ("root"))
-  ("bzr" nil)
-  ("git" "\\git")
-  ("hg" nil)
-  ("ln" "\\ln")
-  ("touch-t" t)
-  ("touch" "\\touch"))
+  ("tramp-version" "2.6.3"))
  ((tramp-file-name "sudo" "esbon1253" nil "esbon1253" nil nil nil)
   nil))

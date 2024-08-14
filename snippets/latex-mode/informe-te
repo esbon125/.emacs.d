@@ -1,0 +1,30 @@
+# contributor: esbon1253 <ebustamante896@gmail.com>
+# -*- mode: snippet -*-
+# name: informe
+# key: informe
+# --
+\documentclass[${1:a4,a4paper}]{article}
+
+${2:preamble}
+
+\begin{document}
+\maketitle
+\begin{center}
+\includegraphics[width=1\textwidth]{/home/esbon1253/mi-preamble-latex/utnlogo.jpg}
+\end{center}
+\pagebreak
+
+\section{Introducción}
+\label{sec:intro}
+$0
+
+\section*{Marco Teórico}
+\label{sec:marco-teorico}
+
+\section*{Desarrollo}
+\label{sec:desarollo}
+
+\section*{Conclusiones}
+\label{sec:conclusiones}
+
+\end{document}

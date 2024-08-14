@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: elseif
+# key: eif
+# --
+elseif ($1\n\t (${2:Tiempo})) then (${3:malo})
+	:$4;
+	stop
+$0

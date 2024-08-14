@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: param
+# key: p
+# --
+* @param[$1]	${2:parname}	${3:pardesc}$0

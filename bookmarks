@@ -2,24 +2,30 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("latinstudy"
+(("Documents"
+ (filename . "~/Documents/")
+ (front-context-string . ".\n  drwx------ 7")
+ (rear-context-string . "96 Aug  9 09:43 ")
+ (position . 88)
+ (last-modified 26294 10397 218691 727000))
+("latinstudy"
  (filename . "~/Documents/latinstudy/")
  (front-context-string . "consilium_soller")
  (rear-context-string . "86 Mar 27 15:57 ")
  (position . 217)
  (last-modified 26118 5339 780032 321000))
 ("tp1_teoria"
- (filename . "~/Documents/latex/Quinquennium/te/tp1_teoria/")
+ (filename . "~/Documents/Quinquennium/te/tp1_teoria/")
  (front-context-string . "auto\n  -rw-r--r-")
  (rear-context-string . "96 Mar 28 21:48 ")
  (position . 230)
- (last-modified 26118 5286 434530 200000))
+ (last-modified 26145 20663 925931 610000))
 ("Quinquennium"
- (filename . "~/Documents/latex/Quinquennium/")
+ (filename . "~/Documents/Quinquennium/")
  (front-context-string)
  (rear-context-string . "96 mar 14 15:37 ")
  (position . 217)
- (last-modified 26135 506 258930 655000))
+ (last-modified 26136 24150 178097 971000))
 ("ir"
  (filename . "~/Documents/graphviz/iusromanum/")
  (front-context-string . "graph.gv\n  -rw-r")

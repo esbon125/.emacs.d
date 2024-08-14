@@ -14,15 +14,18 @@
      (output-dvi "PDF Tools")
      (output-html "xdg-open")))
  '(custom-enabled-themes '(tango-dark))
+ '(dired-compress-directory-default-suffix ".zip")
  '(doc-view-continuous t)
  '(graphviz-dot-auto-preview-on-save t)
- '(graphviz-dot-preview-extension "svg")
+ '(graphviz-dot-preview-extension "png")
  '(graphviz-dot-view-command "xdot %s")
  '(inhibit-startup-screen t)
  '(line-number-mode nil)
  '(org-confirm-babel-evaluate nil)
  '(package-selected-packages
-   '(erc erc-colorize erc-image erc-youtube erc-yt verilog-ext tree-sitter cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+   '(chruby yaml plantuml-mode adoc-mode ac-octave erc erc-colorize erc-image erc-youtube erc-yt verilog-ext tree-sitter cdlatex verilog-mode verilog-ts-mode graphviz-dot-mode esh-autosuggest eshell-did-you-mnnean eshell-syntax-highlighting eshell-toggle eshell-up eshell-vterm eshell-z vterm-toggle vterm magit company-c-headers company-auctex company dired-sidebar pdf-tools yasnippet-snippets auctex))
+ '(plantuml-jar-path "/home/esbon1253/.config/plantuml/plantuml.jar")
+ '(preview-auto-cache-preamble t)
  '(reftex-plug-into-AUCTeX t)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
@@ -127,4 +130,31 @@
 ;;LOAD MY FUNCTIONS FILES
 (load-file "~/.emacs.d/functions.el")
 
-(add-hook 'LaTeX-mode-hook 'reftex-mode)
+;;LOAD MAJOR MODES FOR FILES
+(load-file "~/.emacs.d/modes.el")
+
+
+;;LOAD cdlatex FILE
+;(load-file "~/.emacs.d/cdlconfig.el")
+
+;;LOAD YASNIPPET FILE
+(load-file "~/.emacs.d/yasconfig.el")
+
+
+;;Hooking reftex and fold-mode into LaTeX
+;(add-hook 'LaTeX-mode-hook 'reftex-mode)
+(add-hook 'LaTeX-mode-hook 'tex-fold-mode)
+
+;;Activating autocomplete for octave
+(add-hook 'octave-mode-hook 'auto-complete-mode)
+(require 'ac-octave)
+(add-hook 'octave-mode-hook
+          '(lambda () (ac-octave-setup)))
+(put 'upcase-region 'disabled nil)
+
+;;Configure chruby
+(require 'chruby)
+(chruby "jruby-1.7.2")
+
+;; Enable plantuml-mode for PlantUML files
+(add-to-list 'auto-mode-alist '("\\.plantuml\\'" . plantuml-mode))

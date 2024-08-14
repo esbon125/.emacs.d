@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: pragmaIf
+# key: prif
+# --
+!pragma useVerticalIf on
+start
+if ($1\n\t (${2:Tiempo1})) then (${3:no}) 
+	:$4;
+	stop
+elseif ($5\n\t (${6:Tiempo2})) then ($3)
+	:$7;
+	stop
+$0
+endif
+end

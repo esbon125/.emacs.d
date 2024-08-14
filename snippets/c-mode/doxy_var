@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: var_doxy
+# key: dvar
+# --
+* @var $1
+* ${2:Descripción}

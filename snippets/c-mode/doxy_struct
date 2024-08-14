@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: doxy struct
+# key: doxys 
+# --
+/** @struct ${1:Nombre de la estructura}
+ *  @brief ${2:Descripción de la estructura}
+ *  @var $1::${3:Elemento 1} 
+ *  ${4:Descripción del elemento 1}
+ *  @var $1::${5:Elemento 2}
+ *  ${6:Descripción del elemento 2}
+ */

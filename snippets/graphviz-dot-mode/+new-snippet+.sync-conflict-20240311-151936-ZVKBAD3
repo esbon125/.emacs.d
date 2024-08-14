@@ -1,7 +1,0 @@
-# -*- mode: dot -*-
-# name:node
-# key: n
-# --
-$1 $0
-
-$1[label="$1"];

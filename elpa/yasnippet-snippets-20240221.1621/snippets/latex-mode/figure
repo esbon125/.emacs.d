@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: figure
+# key: fig
+# --
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=${1:1}\textwidth$2]{figures/fig${3:n}.${4:png}}
+  \caption{\label{fig:fig$3} $5}
+\end{figure}
+$0
