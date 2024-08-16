@@ -12,7 +12,14 @@ ${2:preamble}
 \begin{center}
 \includegraphics[width=1\textwidth]{/home/esbon1253/mi-preamble-latex/utnlogo.jpg}
 \end{center}
+
 \pagebreak
+\newpage
+
+\tableofcontents
+
+\pagebreak
+\newpage
 
 \section*{Objetivos}
 $0
@@ -21,5 +28,13 @@ $0
 \section*{Resultados}
 
 \section*{Conclusiones}
+
+\pagebreak
+\newpage
+
+\bibliographystyle{apacite}
+\bibliography{bibliografia.bib}
+
+\listoffigures
 
 \end{document}

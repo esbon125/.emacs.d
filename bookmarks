@@ -8,12 +8,6 @@
  (rear-context-string . "96 Aug  9 09:43 ")
  (position . 88)
  (last-modified 26294 10397 218691 727000))
-("latinstudy"
- (filename . "~/Documents/latinstudy/")
- (front-context-string . "consilium_soller")
- (rear-context-string . "86 Mar 27 15:57 ")
- (position . 217)
- (last-modified 26118 5339 780032 321000))
 ("tp1_teoria"
  (filename . "~/Documents/Quinquennium/te/tp1_teoria/")
  (front-context-string . "auto\n  -rw-r--r-")
